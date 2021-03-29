@@ -20,6 +20,6 @@ while True:
                 newAct_printed = True
             realPostId, clonedPostId, postType = pc.clone_post(post, to_lang="ms")
             if (clonedPostId != False):
-                print(f"[NEW]: {realPostId} -> {clonedPostId} [{postType}")
+                print(f"[NEW]: {realPostId} {clonedPostId} [{postType}]")
                 sleep(500)
     sleep(900) #15m
